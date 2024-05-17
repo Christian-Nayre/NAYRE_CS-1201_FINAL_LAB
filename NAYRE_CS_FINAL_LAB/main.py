@@ -43,7 +43,6 @@ def play_game_session(username, score_manager):
 
         elif inner_choice == "2":
             # leaderboard
-            score_manager.update_leaderboard()
             score_manager.print_leaderboard()
 
         elif inner_choice == "3":
